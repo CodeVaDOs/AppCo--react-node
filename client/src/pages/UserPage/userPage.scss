@@ -1,0 +1,40 @@
+.userPage {
+  padding-bottom: 64px;
+  .container-block {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 12px;
+    background: #3A80BA;
+
+    .logo-text {
+      font-size: 40px;
+      line-height: 49px;
+      font-weight: 300;
+      color: #FFFFFF;
+      margin: 0;
+    }
+  }
+
+  .main {
+    padding: 16px 0;
+
+
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 14px 0;
+    background: #1C3B55;
+    .footer-text {
+      color: white;
+      font-size: 24px;
+      font-weight: 300;
+    }
+  }
+}

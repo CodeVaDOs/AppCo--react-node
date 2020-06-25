@@ -1,0 +1,33 @@
+@mixin button($type) {
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+
+  @if $type == 1 {
+    color: #3A80BA;
+    background-color: #fff;
+    padding: 17px 35px;
+  } @else if ($type == 2) {
+    color: #fff;
+    background-color: #3A80BA;
+    padding: 17px 50px;
+  } @else if($type == 3) {
+    color: #3A80BA;
+    background-color: #fff;
+    padding: 17px 64px;
+  }
+}
+
+.Button1 {
+  @include button(1);
+}
+
+.Button2 {
+  @include button(2);
+}
+
+.Button3 {
+  @include button(3);
+}
+

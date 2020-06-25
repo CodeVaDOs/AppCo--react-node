@@ -1,0 +1,82 @@
+.listUsersPage {
+  padding-bottom: 64px;
+  .container-block {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 12px;
+    background: #3A80BA;
+
+    .logo-text {
+      font-size: 40px;
+      line-height: 49px;
+      font-weight: 300;
+      color: #FFFFFF;
+      margin: 0;
+    }
+  }
+
+  .main {
+    padding: 16px 0;
+    position: relative;
+    .loader {
+      position: absolute;
+      top: 150%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .table {
+      margin: 50px 0;
+
+      table {
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .table-header-row {
+        .table-header-element{
+          padding: 14px;
+          color: #fff;
+          background: #3A80BA;
+          font-size: 14px;
+          text-align: center;
+
+          box-sizing: border-box;
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+        }
+      }
+
+      .table-row {
+        background: #FBFBFB;
+        .table-element {
+          padding: 6px 29px;
+          font-size: 14px;
+          text-align: center;
+
+          box-sizing: border-box;
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+        }
+      }
+      .table-row:nth-child(2n) {
+        background: #F1F1F1;
+      }
+    }
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 14px 0;
+    background: #1C3B55;
+    .footer-text {
+      color: white;
+      font-size: 24px;
+      font-weight: 300;
+    }
+  }
+}

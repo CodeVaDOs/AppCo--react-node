@@ -1,0 +1,4 @@
+{
+  "port": 8000,
+  "mongoURL": "mongodb+srv://dbuser:T9*ah3)e2@cluster0-7anf2.mongodb.net/test?retryWrites=true&w=majority"
+}
